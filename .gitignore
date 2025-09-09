@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Project outputs
+temp/
+transcripts/
+.video2note_hist.json
+
+# whisper.cpp build artifacts and large assets
+whisper.cpp/build/
+whisper.cpp/build-*/
+whisper.cpp/bin/
+whisper.cpp/**/CMakeFiles/
+whisper.cpp/**/CMakeCache.txt
+whisper.cpp/**/compile_commands.json
+whisper.cpp/**/cmake_install.cmake
+whisper.cpp/**/Testing/
+whisper.cpp/**/Release/
+whisper.cpp/**/Debug/
+whisper.cpp/**/x64/
+whisper.cpp/whisper-cli
+whisper.cpp/whisper-cli.exe
+whisper.cpp/models/*.bin
+whisper.cpp/models/*.mlpackage
+
+# Editors/IDEs
+.vscode/
+.idea/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.temp_audio.wav
+*.tmp
+temp_*
+
+# Output files (можно убрать если хотите сохранять результаты)
+# *.txt
+
+# Logs
+*.log
+
+# Папки проекта
+temp/
+transcripts/
+
+# Audio/Video test files (добавьте свои форматы если нужно)
+# *.mp4
+# *.mp3
+# *.wav 
