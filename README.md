@@ -2,6 +2,14 @@
 
 Fast, accurate CLI tool to transcribe audio/video using whisper.cpp. Works on macOS and Windows.
 
+### Clone with submodules
+```
+git clone --recurse-submodules <repo-url>
+cd video2note
+# If you already cloned without submodules:
+git submodule update --init --recursive
+```
+
 ### Prerequisites
 - Python 3.10+
 - ffmpeg in PATH
